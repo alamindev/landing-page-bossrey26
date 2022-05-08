@@ -13,11 +13,11 @@ export default function Footer() {
         <div className='flex flex-col items-center justify-center'>
           <h2 className='text-center text-[#C5C5C5] text-[12px]  sm:text-[22px] font-bold italic pb-3'>JOIN OUR COMMUNITY</h2>
           <ul className='pb-16 md:pb-20 flex gap-4 sm:gap-8 items-center px-16 sm:px-0'>
-            <li><a href="https://medium.com/@tracdotrun" target='_blank'><img src="/images/medium.svg" alt="medium.svg" /></a></li>
-            <li><a href="https://twitter.com/tracdotrun" target='_blank'><img src="/images/twitter.svg" alt="twitter.svg" /></a></li>
-            <li><a href="https://t.me/tracdotrun" target='_blank'><img src="/images/telegram.svg" alt="telegram.svg" /></a></li>
-            <li><a href="https://discord.com/invite/trac" target='_blank'><img src="/images/discord.svg" alt="discord.svg" /></a></li>
-            <li><a href="https://instagram.com/tracdotrun/" target='_blank'><img src="/images/instagram.svg" alt="instagram.svg" /></a></li>  
+            <li><a href="https://medium.com/@tracdotrun" target='_blank' rel="noopener noreferrer"><img src="/images/medium.svg" alt="medium.svg" /></a></li>
+            <li><a href="https://twitter.com/tracdotrun" target='_blank' rel="noopener noreferrer"><img src="/images/twitter.svg" alt="twitter.svg" /></a></li>
+            <li><a href="https://t.me/tracdotrun" target='_blank' rel="noopener noreferrer"><img src="/images/telegram.svg" alt="telegram.svg" /></a></li>
+            <li><a href="https://discord.com/invite/trac" target='_blank' rel="noopener noreferrer"><img src="/images/discord.svg" alt="discord.svg" /></a></li>
+            <li><a href="https://instagram.com/tracdotrun/" target='_blank' rel="noopener noreferrer"><img src="/images/instagram.svg" alt="instagram.svg" /></a></li>  
           </ul>
           <p className='text-[12px] md:text-xl font-black italic text-[#C5C5C5] pb-5 sm:pb-8 text-center'>
             Copyright © 2022 TRACGIGA STUDIO LTD.

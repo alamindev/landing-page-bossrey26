@@ -30,7 +30,7 @@ export default function Header() {
                         <a href="#" className='text-xl xl:text-[26px] font-black italic text-white menu-shadow'>GAME FEATURES</a>
                       </li>
                       <li>
-                        <a href="https://docs.trac.run/" target='_blank' className='text-xl xl:text-[26px] font-black italic text-white menu-shadow'>WHITEPAPER</a>
+                        <a href="https://docs.trac.run/" target='_blank' rel="noopener noreferrer" className='text-xl xl:text-[26px] font-black italic text-white menu-shadow'>WHITEPAPER</a>
                       </li>
                 </ul>
                   </nav>  
