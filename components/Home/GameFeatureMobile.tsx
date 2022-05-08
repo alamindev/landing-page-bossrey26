@@ -5,7 +5,7 @@ export default function GameFeatureMobile() {
     <section className=''>
        <div className='flex justify-center'>
               <div className='pb-16 px-6 md:px-0'>
-                <h2 className='font-black italic text-[28px] lg:text-[40px]  xl:text-[60px] 2xl:text-[80px] leading-[1.2] text-brand-dark-100  uppercase md:lowercase text-center' >  <span className='text-brand-red'>game </span>   features </h2>
+                <h2 className='font-black italic text-[28px] lg:text-[40px]  xl:text-[60px] 2xl:text-[58px] leading-[1.2] text-brand-dark-100  uppercase md:lowercase text-center' >  <span className='text-brand-red'>game </span>   features </h2>
                 <h1 className='moonhouse-stroke font-moonhouse text-[50px] xl:text-[100px] 2xl:text-[180px] italic font-normal leading-4 uppercase'>FEATURES</h1>
               </div>
           </div> 

@@ -5,7 +5,7 @@ export default function Footer() {
     <footer>
       <div className='flex justify-center lg:pb-10 pt-12'>
         <div className='pb-6 sm:pb-16 px-6 md:px-0'>
-          <h2 className='font-black italic text-[26px] lg:text-[40px]  xl:text-[60px] 2xl:text-[120px] leading-[1] xl:leading-[1.5] text-black  uppercase   text-center' > TRAC. <span className='text-brand-red'> EARN.</span>   REPEAT. </h2>
+          <h2 className='font-black italic text-[26px] lg:text-[40px]  xl:text-[60px] 2xl:text-[100px] leading-[1] xl:leading-[1.7] text-black relative z-20 uppercase   text-center' > TRAC. <span className='text-brand-red'> EARN.</span>   REPEAT. </h2>
           <h1 className='moonhouse-stroke font-moonhouse text-[50px] xl:text-[120px] 2xl:text-[260px] lg:-ml-20 italic font-normal leading-4 uppercase'>TRAC.RUN</h1>
         </div>
       </div> 

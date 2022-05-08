@@ -6,7 +6,7 @@ export default function FairLaunch() {
         <div className='3xl:container mx-auto'>
             <div className='flex justify-center'>
                 <div className='pb-8 sm:pb-16 px-6 md:px-0'>
-                    <h2 className='font-black italic text-[28px] lg:text-[40px]  xl:text-[80px]  leading-[1.2] -mb-3 text-brand-dark-100  uppercase   text-center' > <span className='text-brand-red'>fair </span>  launch </h2>
+                    <h2 className='font-black italic text-[28px] lg:text-[40px]  xl:text-[58px]  leading-[1.6] -mb-3 text-brand-dark-100  uppercase relative z-20  text-center' > <span className='text-brand-red'>fair </span>  launch </h2>
                       <h1 className='moonhouse-stroke font-moonhouse text-[42px] xl:text-[100px] italic font-normal leading-4 uppercase text-center pb-8 md:pb-14'>EXCLUSIVES</h1>
                       <h3 className='text-lg md:text-[26px] lg:text-[32px] font-bold italic text-brand-dark-100 text-center'>May 12-15, 2022 18:00 UTC</h3>
                 </div>
