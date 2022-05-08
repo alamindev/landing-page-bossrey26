@@ -20,7 +20,7 @@ export default function Fitness() {
               </div>
               <div className='pb-2 2xl:pl-8'>
                 <h5 className='text-[10px] sm:text-lg italic font-medium md:pb-2 text-brand-dark-100'>API AND SDK POWERED by</h5>
-                <div className='flex items-center gap-2 sm:gap-5'>
+                <div className='flex items-end gap-2 sm:gap-5'>
                   <a href="https://developer.garmin.com/" target='_blank' rel="noopener noreferrer"><img src="/images/logos/garmin.svg" alt="garmin.svg" /></a>
                   <a href="https://developers.strava.com/" target='_blank' rel="noopener noreferrer">   <img src="/images/logos/strava.svg" alt="strava.svg" /></a>
                   <a  href="https://dev.fitbit.com/build/reference/web-api/" target='_blank' rel="noopener noreferrer">  <img src="/images/logos/fitbit.svg" alt="fitbit.svg" /></a> 
