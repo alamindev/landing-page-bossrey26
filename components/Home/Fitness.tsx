@@ -13,17 +13,17 @@ export default function Fitness() {
               <div className='pb-5 2xl:pl-8'>
                 <h5 className='text-[10px] sm:text-lg italic font-medium md:pb-2 text-black'>Contract Audited by</h5>
                 <div className='flex items-center gap-2 sm:gap-5'>
-                  <a  href="https://github.com/ContractWolf/smart-contract-audits/" target="_blank"> <img src="/images/logos/contractwolf.svg" alt="contractwolf.svg" /></a>
-                  <a  href="https://coinsult.net/projects/trac/" target="_blank"><img src="/images/logos/coinsult.svg" alt="coinsult.svg" /></a>
+                  <a  href="https://github.com/ContractWolf/smart-contract-audits/" target='_blank' rel="noopener noreferrer"> <img src="/images/logos/contractwolf.svg" alt="contractwolf.svg" /></a>
+                  <a  href="https://coinsult.net/projects/trac/" target='_blank' rel="noopener noreferrer"><img src="/images/logos/coinsult.svg" alt="coinsult.svg" /></a>
                   
                 </div>
               </div>
               <div className='pb-2 2xl:pl-8'>
                 <h5 className='text-[10px] sm:text-lg italic font-medium md:pb-2 text-black'>API AND SDK POWERED by</h5>
                 <div className='flex items-center gap-2 sm:gap-5'>
-                  <a href="https://developer.garmin.com/" target="_blank"><img src="/images/logos/garmin.svg" alt="garmin.svg" /></a>
-                  <a href="https://developers.strava.com/" target="_blank">   <img src="/images/logos/strava.svg" alt="strava.svg" /></a>
-                  <a  href="https://dev.fitbit.com/build/reference/web-api/" target="_blank">  <img src="/images/logos/fitbit.svg" alt="fitbit.svg" /></a> 
+                  <a href="https://developer.garmin.com/" target='_blank' rel="noopener noreferrer"><img src="/images/logos/garmin.svg" alt="garmin.svg" /></a>
+                  <a href="https://developers.strava.com/" target='_blank' rel="noopener noreferrer">   <img src="/images/logos/strava.svg" alt="strava.svg" /></a>
+                  <a  href="https://dev.fitbit.com/build/reference/web-api/" target='_blank' rel="noopener noreferrer">  <img src="/images/logos/fitbit.svg" alt="fitbit.svg" /></a> 
                 </div>
               </div>
             </div>
