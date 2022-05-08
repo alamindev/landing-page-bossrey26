@@ -9,13 +9,9 @@ import GamePlayMobile from '../components/Home/GamePlayMobile'
 import GameToken from '../components/Home/GameToken'
 import Statistics from '../components/Home/Statistics'
 import TracToEarn from '../components/Home/TracToEarn'
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 class Home extends React.Component { 
-  constructor(props) {
-    super(props);
-    this.scrollToTop = this.scrollToTop.bind(this);
-  }
-
+ 
   componentDidMount() { 
     Events.scrollEvent.register('begin', function () {
       console.log("begin", arguments);
@@ -38,8 +34,7 @@ class Home extends React.Component {
 
     let goToContainer = new Promise((resolve, reject) => {
 
-      Events.scrollEvent.register('end', () => {
-        resolve();
+      Events.scrollEvent.register('end', () => { 
         Events.scrollEvent.remove('end');
       });
 
