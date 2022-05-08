@@ -9,7 +9,7 @@ export default function GameFeatures() {
                 <h1 className='moonhouse-stroke font-moonhouse text-[50px] xl:text-[100px] 2xl:text-[180px] italic font-normal leading-4 uppercase'>FEATURES</h1>
               </div>
           </div> 
-          <div className='px-20  pt-20 flex justify-center items-center bg-left-bottom bg-no-repeat lg:bg-[url(/images/gameplay.png)]'>
+          <div className='px-20 pb-10 pt-20 flex justify-center items-center bg-left-bottom bg-no-repeat lg:bg-[url(/images/gameplay.png)]'>
               <figure>
                 <img   src="/images/nft-sneakers.png " alt="nft-sneakers.png " />
               </figure>

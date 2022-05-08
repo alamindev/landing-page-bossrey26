@@ -17,10 +17,10 @@ export default function FairLaunch() {
                           <img className='w-full h-full lg:h-96' src="/images/violet-rays.gif" alt="violet-rays.gif" /> 
                           <img className='absolute left-[58%] translate-x-[-50%] top-[50%] translate-y-[-50%] z-30' src="/images/Shoes.png" alt="Shoes.png" /> 
                       </figure>
-                      <div className='p-8 md:w-6/12 flex flex-col items-center md:block'>
-                          <h2 className='font-black italic text-2xl lg:text-[30px] text-[#1D2654] pb-3 text-center md:text-left'>Fair Launch Limited Edition</h2>
+                      <div className='px-12 py-8 md:w-6/12 flex flex-col items-center md:block'>
+                          <h2 className='font-black italic text-2xl  text-[#1D2654] pb-5 text-center md:text-left uppercase '>Fair Launch Limited Edition</h2>
                           <p className='italic text-lg lg:text-[22px] pb-14 text-center md:text-left' >Get <strong className='text-[#FCB300]'>1 of 50</strong> Limited Edition Legendary NFT Sneakers for the Top 50 Early Investors who participates in our Official Fair Launch on Pinksale.</p>
-                           <a href="https://www.pinksale.finance/" rel="noopener noreferrer" target='_blank' className='md:w-full inline-block text-center rounded-lg px-5 py-3 bg-[#DF1B3F] text-white font-black text-xl lg:text-[26px] italic'>Join Fair Launch Now!</a>
+                           <a href="https://www.pinksale.finance/" rel="noopener noreferrer" target='_blank' className='md:w-full inline-block text-center rounded-lg px-5 py-5 bg-[#DF1B3F] text-white font-black text-xl lg:text-[26px] italic'>Join Fair Launch Now!</a>
                       </div>
                   </div>
               </div>
