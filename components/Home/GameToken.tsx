@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function GameToken() {
   return (
-   <section className='pt-10 pb-20 bg-left-bottom bg-cover  bg-no-repeat bg-[url(/images/Union-mobile-bottom.svg)] lg:bg-none'>
+   <section className='pt-24 -mt-14 pb-20 bg-left-bottom bg-cover  bg-no-repeat bg-[url(/images/Union-mobile-bottom.svg)] lg:bg-none'>
         <div className='3xl:container   mx-auto ' > 
             <div className='flex justify-center'>
               <div className='pb-16 px-6 md:px-0'>

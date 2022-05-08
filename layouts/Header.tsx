@@ -1,4 +1,5 @@
 import React, { useState } from 'react' 
+import { Link } from 'react-scroll'
 export default function Header() {
     let [open, isOpen] = useState(false);
 
@@ -9,7 +10,7 @@ export default function Header() {
         isOpen(false);
     } 
   return (
-    <header className='bg-white py-4 shadow-lg'>
+    <header className='bg-white py-4 shadow-lg sticky top-0 z-50'>
         <div className='px-6 md:px-20 flex  justify-between items-center 3xl:container mx-auto'>
             <figure>
                 <img className='h-8 md:h-auto' src="/images/logos/logo.svg" />
@@ -17,17 +18,17 @@ export default function Header() {
             <div>
                 <nav  className={`fixed z-30 transition-all duration-300 top-0 bottom-0 bg-white w-72 h-full px-10 pt-20 lg:w-auto lg:px-0 lg:pt-0 lg:static   ${open ? 'right-0' : ' right-[-999px]'}`}>
                   <ul className='flex flex-col lg:flex-row  lg:items-center gap-3 xl:gap-5 2xl:gap-10'>
-                      <li>
-                        <a href="#" className='text-xl xl:text-[26px] font-black italic text-brand-red menu-shadow'>TRAC-TO-EARN</a>
+                   <li>
+                      <Link activeClass="!text-brand-red"  className='cursor-pointer text-xl xl:text-[26px] font-black italic text-white menu-shadow' to="tracToEarn" spy={true} smooth={true} duration={500} >TRAC-TO-EARN</Link>
                       </li>
-                      <li>
-                        <a href="#" className='text-xl xl:text-[26px] font-black italic text-white menu-shadow'>GAMEPLAY</a>
+                      <li> 
+                        <Link activeClass="!text-brand-red"  className='cursor-pointer text-xl xl:text-[26px] font-black italic text-white menu-shadow' to="GamePlay" spy={true} smooth={true} duration={500} >GAMEPLAY</Link>
                       </li>
-                      <li>
-                        <a href="#" className='text-xl xl:text-[26px] font-black italic text-white menu-shadow'>TOKENS</a>
+                      <li> 
+                          <Link activeClass="!text-brand-red"  className='cursor-pointer text-xl xl:text-[26px] font-black italic text-white menu-shadow' to="GameToken" spy={true} smooth={true} duration={500} >TOKENS</Link>
                       </li>
-                      <li>
-                        <a href="#" className='text-xl xl:text-[26px] font-black italic text-white menu-shadow'>GAME FEATURES</a>
+                      <li> 
+                          <Link activeClass="!text-brand-red"  className='cursor-pointer text-xl xl:text-[26px] font-black italic text-white menu-shadow' to="GameFeatures" spy={true} smooth={true} duration={500} >GAME FEATURES</Link>
                       </li>
                       <li>
                         <a href="https://docs.trac.run/" target='_blank' rel="noopener noreferrer" className='text-xl xl:text-[26px] font-black italic text-white menu-shadow'>WHITEPAPER</a>
