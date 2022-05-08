@@ -1,5 +1,5 @@
 import React, { useState } from 'react' 
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link } from 'react-scroll'
 export default function Header() {
     let [open, isOpen] = useState(false);
 

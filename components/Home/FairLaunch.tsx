@@ -11,7 +11,7 @@ export default function FairLaunch() {
                       <h3 className='text-lg md:text-[26px] lg:text-[32px] font-bold italic text-brand-dark-100 text-center'>May 12-15, 2022 18:00 UTC</h3>
                 </div>
               </div>  
-              <div className='max-w-[900px] mx-auto'>
+              <div className='max-w-[1000px] mx-auto'>
                   <div className='w-full rounded-2xl overflow-hidden border border-black shadow-[0_8px_1px_0_#000] flex flex-col md:flex-row'>
                       <figure className='md:w-6/12 relative'>
                           <img className='w-full h-full xl:h-96' src="/images/violet-rays.gif" alt="violet-rays.gif" /> 
