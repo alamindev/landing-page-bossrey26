@@ -13,7 +13,7 @@ export default function GamePlay() {
             </div>
             <div className='pb-32 max-w-[1720px] mx-auto xl:pt-20'>
               <div className='grid grid-cols-3 gap-20 2xl:gap-40 relative z-20'>
-                <figure className='2xl:pl-10 pt-10'>
+                <figure className='2xl:pl-20 pt-10'>
                   <img className='hover:scale-110 transition-all duration-300 w-64'  src="/images/register.png" alt="register.png" />
                 </figure>
                 <figure className='pl-16 2xl:pl-10 pt-20'>
