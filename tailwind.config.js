@@ -12,7 +12,8 @@ module.exports = {
     extend: {
       colors: {
         "brand-red": "#DF1B3F",
-        "brand-dark": "#545454",
+        "brand-dark": "#3A3A3A",
+        "brand-dark-100": "#141414",
       },
       screens: {
         "3xl": "2600px",
