@@ -14,13 +14,13 @@ export default function GamePlay() {
             <div className='pb-32 max-w-[1720px] mx-auto xl:pt-20'>
               <div className='grid grid-cols-3 gap-20 2xl:gap-40 relative z-20'>
                 <figure className='2xl:pl-10 pt-10'>
-                  <img className='hover:scale-110 transition-all duration-300'  src="/images/register.png" alt="register.png" />
+                  <img className='hover:scale-110 transition-all duration-300 w-64'  src="/images/register.png" alt="register.png" />
                 </figure>
                 <figure className='pl-16 2xl:pl-10 pt-20'>
-                  <img  className='hover:scale-110 transition-all duration-300' src="/images/marketplace.png" alt="marketplace.png" />
+                  <img  className='hover:scale-110 transition-all duration-300 w-56' src="/images/marketplace.png" alt="marketplace.png" />
                 </figure>
-                <figure className='2xl:pr-5  mt-32 2xl:mt-0'>
-                  <img className='hover:scale-110 transition-all duration-300'  src="/images/trac-and-earn.png" alt="trac-and-earn.png" />
+                <figure className='2xl:pr-5  mt-32 2xl:mt-10'>
+                  <img className='hover:scale-110 transition-all duration-300 w-80'  src="/images/trac-and-earn.png" alt="trac-and-earn.png" />
                 </figure>
               </div>
               <div className='flex justify-center relative xl:-mt-20'>
