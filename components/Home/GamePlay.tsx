@@ -19,8 +19,8 @@ export default function GamePlay() {
                 <figure className='pl-16 2xl:pl-10 pt-20'>
                   <img  className='hover:scale-110 transition-all duration-300 w-56' src="/images/marketplace.png" alt="marketplace.png" />
                 </figure>
-                <figure className='2xl:pr-5  mt-32 2xl:mt-10'>
-                  <img className='hover:scale-110 transition-all duration-300 w-80'  src="/images/trac-and-earn.png" alt="trac-and-earn.png" />
+                <figure className='2xl:pr-5  mt-32 2xl:-mt-5'>
+                  <img className='hover:scale-110 transition-all duration-300 w-96 '  src="/images/trac-and-earn.png" alt="trac-and-earn.png" />
                 </figure>
               </div>
               <div className='flex justify-center relative xl:-mt-20'>
